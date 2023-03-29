@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-css-grid-and-flexbox-9auqeOuFHF)
 - Live Site URL: [Huddle Landing Page](https://huddle-landing-alejandro.netlify.app)
 
 ## My process
