@@ -1,0 +1,66 @@
+@media (max-width: 26em) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+    background-size: contain;
+  }
+
+  .hero-section {
+    max-width: 31rem;
+    grid-template-columns: 1fr;
+    margin-top: 3.5rem;
+  }
+
+  .logo {
+    height: 50%;
+  }
+
+  .illustration-box {
+    margin-top: 1.6rem;
+  }
+
+  .illustration {
+    max-width: 100%;
+  }
+
+  .text-box {
+    grid-column: auto;
+    margin-top: 5.2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .huddle-heading {
+    font-size: 2.4rem;
+  }
+
+  .huddle-desc {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding: 0 0.4rem;
+  }
+
+  .register-link:link,
+  .register-link:visited {
+    font-size: 1.3rem;
+    padding: 1.4rem 7.4rem;
+  }
+
+  .social-media-box {
+    grid-column: auto;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 4rem;
+  }
+
+  .social-media-link:link,
+  .social-media-link:visited {
+    height: 2.8rem;
+    width: 2.8rem;
+    padding-top: 0.6rem;
+  }
+
+  .social-media-link img {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+}

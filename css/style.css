@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(103, 75, 175);
+  background-image: url("../images/bg-desktop.svg");
+  background-size: 92.5% 100%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.hero-section {
+  max-width: 127.5rem;
+  display: grid;
+  grid-template-columns: 55.5fr 44.5fr;
+  margin-top: 6rem;
+  column-gap: 5rem;
+}
+
+.logo-box {
+  grid-column: 1;
+}
+
+.logo {
+  height: 75%;
+}
+
+.illustration-box {
+  margin-top: 7rem;
+  grid-column: 1;
+}
+
+.text-box {
+  margin-top: 11rem;
+}
+
+.huddle-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+}
+
+.huddle-desc {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  margin-bottom: 4rem;
+}
+
+.register-link:link,
+.register-link:visited {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(103, 75, 175);
+  background-color: #fff;
+  padding: 1.6rem 6.4rem;
+  border-radius: 100px;
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.register-link:hover,
+.register-link:active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(232, 130, 232);
+}
+
+.social-media-box {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 1.6rem;
+  list-style: none;
+  grid-column: 2;
+  margin-top: 2.4rem;
+}
+
+.social-media-link:link,
+.social-media-link:visited {
+  display: flex;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 1rem;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  transition: border 0.2s;
+}
+
+.social-media-link:hover,
+.social-media-link:active {
+  border: solid 1px rgb(232, 130, 232);
+}
+
+.social-media-link:hover img {
+  filter: invert(75%) sepia(34%) saturate(1093%) hue-rotate(251deg)
+    brightness(94%) contrast(92%);
+}
+
+.social-media-link img {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(99%) sepia(40%) saturate(0%) hue-rotate(59deg) brightness(110%)
+    contrast(100%);
+  transition: filter 0.2s;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.attribution a {
+  color: rgb(213, 233, 31);
+}
